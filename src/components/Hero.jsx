@@ -13,7 +13,7 @@ const Hero = () => {
           <button className="btn" onClick={() => document.getElementById('project-intro').scrollIntoView({ behavior: 'smooth' })}>
             了解更多
           </button>
-          <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+          <a href="https://github.com/liuyu-star/nsfc-economic-big-data" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
             View on GitHub
           </a>
         </div>
