@@ -1,16 +1,70 @@
-# React + Vite
+# NSFC Economic Big Data Project
+## Economic Big Data Analysis: Theoretical, Methodological and Application Research
+### 国家自然科学基金项目：经济大数据分析——理论、方法与应用研究
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the official research website for the NSFC-funded project "Economic Big Data Analysis: Theoretical, Methodological and Application Research". It showcases the project's team members, academic publications, research grants, and developed software packages.
 
-Currently, two official plugins are available:
+**Project URL:** [https://nsfc-economic-big-data.netlify.app/](https://nsfc-economic-big-data.netlify.app/) (or your GitHub Pages URL)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## React Compiler
+*   **Publications**: A comprehensive, categorized list of research papers (2026-2021) with direct links to DOIs and Google Scholar.
+*   **Project Members**: Profiles of the research team with professional avatars and links to their official university pages.
+*   **Software**: Showcase of developed R/Python packages (e.g., ODRF) with links to CRAN and GitHub.
+*   **Smart Linking**: Automatic cross-linking of member names throughout the site to their respective profiles.
+*   **Responsive Design**: A modern, clean user interface built with React and Vite.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   Node.js (version 14 or higher recommended)
+*   npm or yarn
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/liuyu-star/nsfc-economic-big-data.git
+    cd nsfc-economic-big-data
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Start development server**
+    ```bash
+    npm run dev
+    ```
+    The site will be available at `http://localhost:5173`.
+
+## 🛠️ Build & Deploy
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+The output will be in the `dist` directory, ready to be deployed to GitHub Pages, Netlify, or Vercel.
+
+## 👥 Project Team
+
+*   **Guodong Li** (University of Hong Kong)
+*   **Degui Li** (University of Macau)
+*   **Zhonglei Wang** (Xiamen University)
+*   **Weixuan Zhu** (Xiamen University)
+*   **Ye He** (Sichuan Normal University)
+*   **Yingcun Xia** (National University of Singapore)
+*   **Chen Wang** (University of Hong Kong)
+*   **Xu Qin** (UESTC)
+
+## 📦 Software
+
+*   **ODRF** (Oblique Decision Random Forest): [CRAN](https://cran.r-project.org/web/packages/ODRF/index.html) | [GitHub](https://github.com/liuyu-star/ODRF)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
