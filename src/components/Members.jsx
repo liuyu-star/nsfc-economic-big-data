@@ -3,10 +3,62 @@ import '../styles/Members.css';
 
 const Members = () => {
   const team = [
-    { name: "张三", role: "项目负责人", title: "教授", img: "https://ui-avatars.com/api/?name=Zhang+San&background=0D8ABC&color=fff" },
-    { name: "李四", role: "核心成员", title: "副教授", img: "https://ui-avatars.com/api/?name=Li+Si&background=0D8ABC&color=fff" },
-    { name: "王五", role: "核心成员", title: "讲师", img: "https://ui-avatars.com/api/?name=Wang+Wu&background=0D8ABC&color=fff" },
-    { name: "赵六", role: "博士研究生", title: "科研助理", img: "https://ui-avatars.com/api/?name=Zhao+Liu&background=0D8ABC&color=fff" },
+    { 
+      name: "Guodong Li", 
+      role: "项目成员", 
+      title: "Professor, University of Hong Kong", 
+      img: "https://ui-avatars.com/api/?name=Guodong+Li&background=0D8ABC&color=fff&size=200",
+      link: "https://saasweb.hku.hk/people/gdli.php"
+    },
+    { 
+      name: "Degui Li", 
+      role: "项目成员", 
+      title: "Distinguished Professor, University of Macau", 
+      img: "https://ui-avatars.com/api/?name=Degui+Li&background=0D8ABC&color=fff&size=200",
+      link: "https://fba.um.edu.mo/staff/degui-li/"
+    },
+    { 
+      name: "Zhonglei Wang", 
+      role: "项目成员", 
+      title: "Associate Professor, Xiamen University", 
+      img: "https://ui-avatars.com/api/?name=Zhonglei+Wang&background=0D8ABC&color=fff&size=200",
+      link: "https://wise.xmu.edu.cn/people/faculty/0e/6f/c16743a164506/page.htm"
+    },
+    { 
+      name: "Weixuan Zhu", 
+      role: "项目成员", 
+      title: "Assistant Professor, Xiamen University", 
+      img: "https://ui-avatars.com/api/?name=Weixuan+Zhu&background=0D8ABC&color=fff&size=200",
+      link: "https://wise.xmu.edu.cn/people/faculty/23/5d/c16743a180370/page.htm"
+    },
+    { 
+      name: "Ye He", 
+      role: "项目成员", 
+      title: "School of Mathematics Science, Sichuan Normal University", 
+      img: "https://ui-avatars.com/api/?name=Ye+He&background=0D8ABC&color=fff&size=200",
+      link: "http://math.sicnu.edu.cn/"
+    },
+    { 
+      name: "Yingcun Xia", 
+      role: "项目成员", 
+      title: "Professor, National University of Singapore", 
+      img: "https://ui-avatars.com/api/?name=Yingcun+Xia&background=0D8ABC&color=fff&size=200",
+      link: "https://www.stat.nus.edu.sg/people/faculty-members/xia-yingcun/"
+    },
+    { 
+      name: "Chen Wang", 
+      role: "项目成员", 
+      title: "Assistant Professor, University of Hong Kong", 
+      img: "https://ui-avatars.com/api/?name=Chen+Wang&background=0D8ABC&color=fff&size=200",
+      link: "https://saasweb.hku.hk/people/cw.php"
+    },
+    { 
+      name: "Xu Qin", 
+      role: "项目成员", 
+      title: "Associate Professor, UESTC", 
+      img: "https://ui-avatars.com/api/?name=Xu+Qin&background=0D8ABC&color=fff&size=200",
+      link: "https://www.math.uestc.edu.cn/"
+    },
   ];
 
   return (
@@ -17,10 +69,16 @@ const Members = () => {
           {team.map((member, index) => (
             <div key={index} className="member-card">
               <div className="member-img">
-                <img src={member.img} alt={member.name} />
+                <a href={member.link} target="_blank" rel="noopener noreferrer">
+                  <img src={member.img} alt={member.name} />
+                </a>
               </div>
               <div className="member-info">
-                <h3>{member.name}</h3>
+                <h3>
+                  <a href={member.link} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                    {member.name}
+                  </a>
+                </h3>
                 <span className="role">{member.role}</span>
                 <p className="title">{member.title}</p>
               </div>
