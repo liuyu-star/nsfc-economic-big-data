@@ -1,10 +1,5 @@
-# NSFC Economic Big Data Project
+# NSFC Key Program Project
 ## Economic Big Data Analysis: Theoretical, Methodological and Application Research
-### 国家自然科学基金项目：经济大数据分析——理论、方法与应用研究
-
-This is the official research website for the NSFC-funded project "Economic Big Data Analysis: Theoretical, Methodological and Application Research". It showcases the project's team members, academic publications, research grants, and developed software packages.
-
-**Project URL:** [https://nsfc-economic-big-data.netlify.app/](https://nsfc-economic-big-data.netlify.app/) (or your GitHub Pages URL)
 
 ## 📌 Features
 
