@@ -63,7 +63,7 @@ The output will be in the `dist` directory, ready to be deployed to GitHub Pages
 
 ## 📦 Software
 
-*   **ODRF** (Oblique Decision Random Forest): [CRAN](https://cran.r-project.org/web/packages/ODRF/index.html) | [GitHub](https://github.com/liuyu-star/ODRF)
+*   **ODRF** (Oblique Decision Random Forest): [CRAN](https://cran.r-project.org/web/packages/ODRF/index.html) | [Homepage](https://liuyu-star.github.io/ODRF/)
 
 ## 📄 License
 
